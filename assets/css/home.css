@@ -1,0 +1,21 @@
+.home {
+  margin-top: 18vh;
+  display: flex;
+  flex-direction: column;
+}
+.home-btn {
+  width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  .home {
+    margin-top: 20vh;
+    justify-content: center;
+    row-gap: 2vh;
+  }
+  .home-btn {
+    margin-top: 5vh;
+    padding: 15px;
+    width: 60%;
+  }
+}

@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo-portfolio.png" />
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=VT323&family=Varela+Round&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    />
+
     <!-- CSS Geral -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- CSS About -->
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <!-- CSS Home -->
+    <link rel="stylesheet" href="./assets/css/home.css" />
     <!-- CSS Navbar -->
     <link rel="stylesheet" href="./assets/css/navbar.css" />
     <title>Jeickson Junior</title>
@@ -23,42 +27,139 @@
   <body>
     <header class="header">
       <div class="navbar">
-        <img src="./assets/images/logo-portfolio.png" alt="logo" class="logo" />
+        <a href="index.html">
+          <img src="./assets/images/logo-portfolio.png" alt="logo" class="logo"
+        /></a>
+
         <ul class="nav-list">
           <li>
-            <p class="green">01.</p>
-            <a href="" class="list-element"> Sobre</a>
+            <p class="green font-small">01.</p>
+            <a href="#aboutsec" class="list-element font-small"> Sobre</a>
           </li>
           <li>
-            <p class="green">02.</p>
-            <a href="" class="list-element"> Experiência </a>
+            <p class="green font-small">02.</p>
+            <a href="#expsec" class="list-element font-small"> Experiência </a>
           </li>
           <li>
-            <p class="green">03.</p>
-            <a href="" class="list-element">Trabalho</a>
+            <p class="green font-small">03.</p>
+            <a href="#worksec" class="list-element font-small">Trabalho</a>
           </li>
           <li>
-            <p class="green">04.</p>
-            <a href="" class="list-element"> Contato</a>
+            <p class="green font-small">04.</p>
+            <a href="#contactsec" class="list-element font-small"> Contato</a>
           </li>
-          <button>Currículo</button>
+          <button class="font-small">Currículo</button>
         </ul>
       </div>
       <main class="main-content">
         <div class="main-content">
           <div class="home">
-            <p class="green vt323">Olá, meu nome é</p>
-            <p class="title">Jeickson de Lima.</p>
-            <p class="subtitle">Sou Desenvolvedor Web.</p>
-            <p class="text">
+            <p class="green font-medium">Oi, meu nome é</p>
+            <p class="title font-large bold">Jeickson de Lima.</p>
+            <p class="subtitle font-large bold">Sou Desenvolvedor Web.</p>
+            <p class="text font-small">
               Graduando de Ciência e Tecnologia pela Universidade Federal do Rio
               Grande do Norte (UFRN). Desenvolvedor Front-end com habilidade em
               Bootstrap, Bulma e Wordpress.
             </p>
-            <button class="home-btn">Fale comigo</button>
+            <button class="home-btn font-small">Fale comigo</button>
+          </div>
+          <!-- About -->
+          <div id="#aboutsec" class="about">
+            <div class="profile-text font-small">
+              <div id="aboutsec" class="sub-title-container font-medium">
+                <p class="green">01.</p>
+                <p class="profile-title bold">Sobre mim</p>
+                <div class="line"></div>
+              </div>
+              <p>
+                Olá! Meu nome é Jeickson sou desenvolvedor front-end. Meu
+                interesse em tecnologia começou antes de 2014 Quando eu começei
+                a ter mais acesso a computadores — Isso me fez ter curiosidade
+                em como os sites são feitos e esse foi meu primeiro contato com
+                HTML.
+              </p>
+              <p>
+                Hoje em dia, eu tenho o privilégio de trabalhar na
+                <a
+                  href="https://www.ejectufrn.com.br"
+                  target="_blank"
+                  class="green"
+                  >EJECT</a
+                >, formada por alunos da UFRN focados em desenvolver suas
+                habilidades através da entrega de projetos com alta qualidade
+                por um preço abaixo do mercado.
+              </p>
+              <p>
+                Você também pode descobrir mais sobre mim vendo meu
+                <a
+                  href="https://www.linkedin.com/in/jeickson-junior-626454239/"
+                  target="_blank"
+                  class="green"
+                  >linkedin</a
+                >,
+                <a
+                  href="https://github.com/jeicksonjunior"
+                  class="green"
+                  target="_blank"
+                  >github</a
+                >
+                ou <a href="#" target="_blank" class="green">youtube</a>.
+              </p>
+              <p>
+                Essas são as tecnologias que estou trabalhando recentemente:
+              </p>
+              <div class="ul-about-container">
+                <ul class="ul-about">
+                  <li class="li-about font-small">Html</li>
+                  <li class="li-about font-small">Javascript</li>
+                  <li class="li-about font-small">Bulma</li>
+                </ul>
+                <ul class="ul-about">
+                  <li class="li-about font-small">Css</li>
+                  <li class="li-about font-small">Bootstrap</li>
+                  <li class="li-about font-small">Wordpress</li>
+                </ul>
+              </div>
+            </div>
+            <div class="profile-img-container">
+              <img
+                src="./assets/images/jeick-img.jpg"
+                alt="Jeickson"
+                class="profile-img"
+              />
+            </div>
+          </div>
+          <div class="exp">
+            <div id="expsec" class="sub-title-container font-medium">
+              <p class="green">02.</p>
+              <p class="profile-title bold">Experiência</p>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="work">
+            <div id="worksec" class="sub-title-container font-medium">
+              <p class="green">03.</p>
+              <p class="profile-title bold">Trabalho</p>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="">
+              <div id="contactsec" class="sub-title-container font-medium">
+                <p class="green">04.</p>
+                <p class="profile-title bold">Contato</p>
+                <div class="line"></div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
+      <footer class="center">
+        <a href="https://github.com/jeicksonjunior/portifolio-css"
+          >Desenvolvido por Jeickson de Lima</a
+        >
+      </footer>
     </header>
   </body>
 </html>
