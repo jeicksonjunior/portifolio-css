@@ -44,6 +44,7 @@ a {
 a:hover {
   color: #64ffda;
 }
+
 main a {
   color: #64ffda;
   position: relative;
@@ -123,6 +124,7 @@ li {
 
 .title {
   color: #ccd6f6;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 800px) {
