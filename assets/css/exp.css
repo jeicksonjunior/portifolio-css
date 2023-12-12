@@ -1,44 +1,39 @@
 .exp {
-  margin-top: 40vh;
+  margin-top: 8rem;
 }
 .tab-container {
-  width: 50vw;
+  border-bottom: 1px solid #64ffda;
   display: flex;
-}
-.tab-box {
-  display: flex;
-  flex-direction: column;
-  width: 12vw;
   justify-content: space-around;
-  align-items: flex-start;
-  border-left: solid 2px #8892b0;
-  position: relative;
-}
-.tab-box .tab-btn {
-  color: #8892b0;
-  background: none;
-  border: none;
-  font-size: 14pt;
   width: 100%;
-}
-.tab-box .tab-btn.active {
-  background-color: #64ffda1a;
-  color: #64ffda;
-  border-radius: 0;
-  border-left: solid 2px #64ffda;
-}
-.content-box {
-  width: 100%;
-  padding: 20px;
-}
-.content-box .tab-content {
-  display: none;
-}
-.content-box .tab-content .active {
-  display: block;
 }
 
-.content-box .tab-content h2 {
-  background-color: white;
-  margin-bottom: 20px;
+.tab-btn {
+  padding: 10px 20px;
+  border: none;
+  color: #8892b0;
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+
+.tab-btn.active {
+  color: #64ffda !important;
+  background-color: #64ffda1a;
+}
+
+.tab-card {
+  background-color: #112240;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 3rem;
+}
+.tab-content {
+  display: none;
+  padding: 20px;
+
+  height: 24rem;
+}
+
+.tab-content.active {
+  display: block;
 }

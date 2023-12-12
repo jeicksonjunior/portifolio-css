@@ -2,16 +2,9 @@
   display: flex;
   justify-content: center;
 }
-.background-test {
-  background-color: red;
+.margin-top {
+  margin-top: 3rem;
 }
-.background-testd {
-  background-color: yellow;
-}
-.background-testt {
-  background-color: blue;
-}
-
 html {
   scroll-behavior: smooth;
 }
