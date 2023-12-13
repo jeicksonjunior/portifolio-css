@@ -1,3 +1,12 @@
+.edu-list {
+  display: flex;
+  align-items: flex-start;
+  color: #ccd6f6;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  row-gap: 1rem;
+}
 .exp {
   margin-top: 8rem;
 }
@@ -22,7 +31,7 @@
 }
 
 .tab-card {
-  background-color: #112240;
+  background-color: transparent;
   padding: 1rem;
   border-radius: 20px;
   margin-top: 3rem;

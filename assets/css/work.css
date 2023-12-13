@@ -1,0 +1,15 @@
+.site-img {
+  width: 100%;
+  height: auto;
+}
+.site-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.work-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
