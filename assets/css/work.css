@@ -1,6 +1,7 @@
 .work-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .work-item {
@@ -59,4 +60,10 @@
   align-items: center;
   justify-content: center;
   row-gap: 1rem;
+}
+/* Estilos para telas pequenas (mobile) */
+@media (max-width: 767px) {
+  .work-item {
+    flex: 0 1 calc(100% - 40px); /* Garante que os itens ocupem a largura total e têm espaço ao redor */
+  }
 }
