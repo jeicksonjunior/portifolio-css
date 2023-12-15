@@ -58,7 +58,7 @@
                   <p class="green font-small">04.</p>
                   <a href="#contactsec" class="list-element font-small"> Contato</a>
                </li>
-               <button class="font-small">Linkedin</button>
+               <button class="font-small" onclick="abrirNovaAba('linkedin')">Linkedin</button>
             </ul>
          </div>
       </header>
@@ -90,7 +90,7 @@
                </p>
                <p>
                   Tive o privilégio de trabalhar na
-                  <a href="https://www.ejectufrn.com.br" target="_blank">EJECT</a
+                  <a href="https://www.ejectufrn.com.br" target="_blank" class="hover">EJECT</a
                      >, formada por alunos da UFRN focados em desenvolver suas
                   habilidades através da entrega de projetos com alta qualidade
                   por um preço abaixo do mercado.
@@ -99,13 +99,13 @@
                   Você também pode descobrir mais sobre mim vendo meu
                   <a
                      href="https://www.linkedin.com/in/jeickson-junior-626454239/"
-                     target="_blank"
+                     target="_blank" class="hover"
                      >linkedin</a
                      >,
-                  <a href="https://github.com/jeicksonjunior" target="_blank"
+                  <a href="https://github.com/jeicksonjunior" target="_blank class="hover""
                      >github</a
                      >
-                  ou <a href="#" target="_blank" class="green">youtube</a>.
+                  ou <a href="#" target="_blank" class="green hover ">youtube</a>.
                </p>
                <p>
                   Essas são as tecnologias que estou trabalhando recentemente:
@@ -161,13 +161,13 @@
             <div id="tab1" class="tab-content active">
                <p>Meus certificados: </p>
                <ul class="edu-list">
-                  <li><a href="https://drive.google.com/file/d/12qdrToY5Mu-TqRfpjplUgi_1IH0NfDks/view?usp=sharing" target="_blank">
+                  <li><a href="https://drive.google.com/file/d/12qdrToY5Mu-TqRfpjplUgi_1IH0NfDks/view?usp=sharing" target="_blank" class="hover">
                      HTML5</a>
                   </li>
-                  <li><a href="https://drive.google.com/file/d/1wcb_4OTm1OGMMlC5lL5mFLge_aPefYi7/view?usp=sharing" target="_blank">
+                  <li><a href="https://drive.google.com/file/d/1wcb_4OTm1OGMMlC5lL5mFLge_aPefYi7/view?usp=sharing" target="_blank class="hover"">
                      CSS3</a>
                   </li>
-                  <li><a href="https://drive.google.com/file/d/14I0nao1IYNG0scp5hl8_pJFinMhtzFlc/view?usp=sharing" target="_blank">
+                  <li><a href="https://drive.google.com/file/d/14I0nao1IYNG0scp5hl8_pJFinMhtzFlc/view?usp=sharing" target="_blank class="hover"">
                      WORDPRESS</a>
                   </li>
                </ul>
@@ -232,19 +232,15 @@
             </div>
          </div>
          <!-- Contact -->
-         
-            <div class="contact">
-              <div id="contactsec" class="sub-title-container font-medium">
-                <p class="green">04.</p>
-                <p class="profile-title bold">Contato (Sessão ainda em desenvolvimento)</p>
-              </div>
-              <div class="contact-container">
-                <a href="http://" target="_blank">Linkedin</a>
-                <a href="http://" target="_blank">github</a>
-                <a href="http://" target="_blank">Email</a>
-              </div>
-            </div>
-            
+         <div class="social-links">
+            <button class="contact-btn" onclick="abrirNovaAba('github')"><i class="fa-brands fa-github contact-logo"></i></button>
+            <button class="contact-btn" onclick="abrirNovaAba('github')"> <i class="fa-brands fa-linkedin contact-logo"></i></button>
+         </div>
+         <div class="contact">
+         <div id="contactsec" class="sub-title-container font-medium">
+            <p class="green">04.</p>
+            <p class="profile-title bold">*** (Sessão ainda em desenvolvimento)</p>
+         </div>
       </main>
       <script src="./assets/js/index.js"></script>
       <!-- Footer -->
